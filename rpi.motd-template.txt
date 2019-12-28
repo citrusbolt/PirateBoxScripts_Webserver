@@ -13,12 +13,7 @@
                                                                                
 
 
-Steps for Mixæl:
-1. Change hostname
-sudo nano /etc/hostname
-2. Edit MOTD
-sudo nano /etc/motd
-3. Run init script
+1. Run init script
 sudo ./init.sh
 
 Steps for User:
