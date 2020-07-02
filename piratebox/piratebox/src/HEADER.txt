@@ -1,5 +1,5 @@
 <head>
-	<title>PegLeg - Share Freely!</title>
+	<title>Denver Occupied Zone - Share Freely!</title>
 	<script src="/content/js/jquery.min.js"></script>
 	<script src="/content/js/scripts.js"></script>
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
