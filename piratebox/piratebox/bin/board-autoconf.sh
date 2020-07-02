@@ -6,7 +6,7 @@ if [[ ! -d /opt/piratebox/share/board ]]; then
     echo "\t/opt/piratebox/bin/install_piratebox.sh /opt/piratebox/conf/piratebox.conf imageboard"
 else
     echo -n "Setting imageboard admin password"
-    sed -i "s|xyzPASSWORDzyx|PegLegBoard|g" /opt/piratebox/share/board/config.pl
+    sed -i "s|xyzPASSWORDzyx|DOZBoard|g" /opt/piratebox/share/board/config.pl
 
     TEMPRAND=$(< /dev/urandom tr -dc A-Za-z0-9_ | head -c128)
     sed -i "s|xyzSECRETCODEzyx|$TEMPRAND|g" /opt/piratebox/share/board/config.pl
