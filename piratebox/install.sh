@@ -49,7 +49,7 @@ fi
 
 cp -rv "$CURRENT_DIR"/piratebox /opt &> /dev/null
 echo "Finished copying files..."
-echo "$NET.$IP_SHORT piratebox.lan">>/etc/hosts
+echo "$NET.$IP_SHORT doz.lan">>/etc/hosts
 echo "$NET.$IP_SHORT piratebox">>/etc/hosts
 
 if [[ -d /etc/init.d/ ]]; then
