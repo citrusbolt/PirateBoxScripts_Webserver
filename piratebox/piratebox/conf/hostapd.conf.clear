@@ -21,5 +21,3 @@ ap_isolate=1
 #wpa_pairwise=TKIP CCMP
 #rsn_pairwise=CCMP
 #wpa_passphrase=Somepassphrase
-
-
