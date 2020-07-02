@@ -51,3 +51,12 @@ passwd
 sudo passwd root
 3. Edit MOTD
 sudo nano /etc/motd
+
+Enable WiFi encryption:
+sudo ./enable_wpa.sh
+
+Disable WiFi encryption:
+sudo ./disable_wpa.sh
+
+Change WiFi encryption key:
+sudo ./change_wpa.sh
